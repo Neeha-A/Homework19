@@ -117,12 +117,30 @@ body {
 .gaming,
 .story {
     color: #000;
+    background: white;
     font-family: League Spartan;
     font-size: 65px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 405px;
+height: 80px;
+text-align: center;
+padding-top: 27px;
+border-radius: 30px;
 }
+ 
+  .daydreaming.hover {
+    background: #7365A2;
+  }
+
+  .gaming.hover {
+    background: #9EDC30;
+  }
+
+  .story.hover {
+    background: #DD8C04;
+  }
 
 .uxskills {
     background-color: #FFB12F;
@@ -233,6 +251,37 @@ h2 {
     line-height: normal;
 }
 
+.casestudybox{
+        display: flex;
+        background: #888C03;
+        color: #000;
+        text-decoration: none;
+        border-radius: 40px;
+        font-family: League Spartan;
+        font-size: 20px;
+        border: 5px solid #000;
+        box-shadow: 6px 6px 0px 2px #000000;
+        transition: box-shadow ease-in-out 0.2s;
+        margin-bottom: 30px;
+    }
+    
+    .casestudybox:hover {
+        box-shadow: 10px 10px 0px 2px #000000;
+    }
+    
+    .casestudybox:focus,
+    .casestudybox:active {
+        box-shadow: 2px 2px 0px 2px #000000;
+    }
+
+    .casestudy2 {
+        background: #5E4420;
+    }
+    
+    .casestudy3 {
+        background: #E9172B;
+    }
+
 .top-layer-BHPS {
     position: relative;
     height: 418px;
@@ -289,7 +338,6 @@ h2 {
     padding: 10px 20px;
     color: #000;
     font-family: League Spartan;
-    font-family: League Spartan;
     font-size: 70px;
     justify-content: left;
     align-items: center;
@@ -299,7 +347,6 @@ h2 {
 .textbox {
     padding: 10px 25px;
     color: #000;
-    font-family: League Spartan;
     font-family: Hepta Slab;
     font-size: 20px;
     align-items: flex-end;
